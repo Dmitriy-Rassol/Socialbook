@@ -70,8 +70,7 @@ npm run deploy
 npm run svgSprive
 ```
 
-## Файлы HTML
-Страницы проекта
+## Страницы проекта
 ---
 [Страница пользователя](https://dmitriy-rassol.github.io/Socialbook/dist/index.html)
 
