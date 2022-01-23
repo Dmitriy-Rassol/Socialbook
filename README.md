@@ -70,5 +70,10 @@ npm run deploy
 npm run svgSprive
 ```
 
-
-
+## Файлы HTML
+Две страницы проекта
+---
+Страница пользователя
+index.html
+Профиль пользователя
+profile.html
