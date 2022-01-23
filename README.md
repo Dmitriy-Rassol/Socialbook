@@ -71,11 +71,9 @@ npm run svgSprive
 ```
 
 ## Файлы HTML
-Две страницы проекта
+Страницы проекта
 ---
-Страница пользователя
-```index.html```
-Профиль пользователя
-```
-profile.html
-```
+[Страница пользователя](https://dmitriy-rassol.github.io/Socialbook/dist/index.html)
+
+[Профиль пользователя](https://dmitriy-rassol.github.io/Socialbook/dist/profile.html)
+
