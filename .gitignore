@@ -1,0 +1,10 @@
+#Исключим директории
+node_modules
+package-lock.json
+.DS_Store
+.idea
+.vscode
+*.ai
+*.log
+*.pdf
+*.psd
