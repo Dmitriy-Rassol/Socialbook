@@ -43,5 +43,11 @@ npm install
 -	webpack
 -	webpack-stream
 
+## Сценарии NPM
+  ```npm run dev``` - собираем проект с рабочим browser-sync, 
+		```npm run build``` - собираем проект,
+		```npm run zip``` - создаем архив проекта,
+	 ```npm run deploy``` - заливаем проект на сервер, все настройки в файле gulp/config/ftp.js,
+		```npm run svgSprive``` - создаем спрайт из иконок
 
 
