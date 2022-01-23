@@ -11,37 +11,37 @@ npm install
 
 Список пакетов
 
-- "browser-sync": "latest",
--	"del": "latest",
--	"gulp": "latest",
--	"gulp-autoprefixer": "latest",
--	"gulp-clean-css": "latest",
--	"gulp-file-include": "latest",
--	"gulp-fonter": "latest",
--	"gulp-group-css-media-queries": "latest",
--	"gulp-if": "latest",
--	"gulp-imagemin": "latest",
--	"gulp-newer": "latest",
--	"gulp-notify": "latest",
--	"gulp-plumber": "latest",
--	"gulp-pug": "latest",
--	"gulp-rename": "latest",
--	"gulp-replace": "latest",
--	"gulp-sass": "latest",
--	"gulp-svg-sprite": "latest",
--	"gulp-ttf2woff2": "latest",
--	"gulp-util": "latest",
--	"gulp-version-number": "latest",
--	"gulp-webp": "latest",
--	"gulp-webp-html-nosvg": "latest",
--	"gulp-webpcss": "latest",
--	"gulp-zip": "latest",
--	"sass": "latest",
--	"swiper": "latest",
--	"vinyl-ftp": "latest",
--	"webp-converter": "2.2.3",
--	"webpack": "latest",
--	"webpack-stream": "latest"
+- browser-sync
+-	del
+-	gulp
+-	gulp-autoprefixer
+-	gulp-clean-css
+-	gulp-file-include
+-	gulp-fonter
+-	gulp-group-css-media-queries
+-	gulp-if
+-	gulp-imagemin
+-	gulp-newer
+-	gulp-notify
+-	gulp-plumber
+-	gulp-pug
+-	gulp-rename
+-	gulp-replace
+-	gulp-sass
+-	gulp-svg-sprite
+-	gulp-ttf2woff2
+-	gulp-util
+-	gulp-version-number
+-	gulp-webp
+-	gulp-webp-html-nosvg
+-	gulp-webpcss
+-	gulp-zip
+-	sass
+-	swiper
+-	vinyl-ftp
+-	webp-converter
+-	webpack
+-	webpack-stream
 
 
 
