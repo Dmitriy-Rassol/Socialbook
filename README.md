@@ -74,6 +74,8 @@ npm run svgSprive
 Две страницы проекта
 ---
 Страница пользователя
-index.html
+```index.html```
 Профиль пользователя
+```
 profile.html
+```
