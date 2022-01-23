@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html',{
+"title":"Profile page"
+})
+
+<body>
+	@@include('html/header.html',{})
+	<main>
+		<!-- --------profile page---------- -->
+        <div class="profile-container">
+            <img src="@img/cover.png" alt="cover" class="cover-img">
+            <div class="profile-details">
+                <div class="profile-details__left">
+                    <div class="profile-details__row">
+                        <img src="@img/avatar.jpg" alt="profile" class="profile-details__img">
+                        <div>
+                            <h3>Dmitriy Rassolenko</h3>
+                            <p>120 Friends - 20 mutual</p>
+                            <img src="@img/member-1.png" alt="member" class="profile-details__member">
+                            <img src="@img/member-2.png" alt="member" class="profile-details__member">
+                            <img src="@img/member-3.png" alt="member" class="profile-details__member">
+                            <img src="@img/member-4.png" alt="member" class="profile-details__member">
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-details__right">
+                    <button type="button"><img src="@img/add-friends.png" alt="All friends"> Friends</button>
+                    <button type="button"><img src="@img/message.png" alt="message"> Message</button>
+                    <br>
+                    <a href="#"><img src="@img/more.png" alt="more"></a>
+                </div>
+            </div>
+
+            <div class="profile-info">
+                <div class="info-col">
+                    <div class="profile-intro">
+                        <h3>Intro</h3>
+                        <p class="intro-text">Believe in yourself and you can do unbelievable things. <img src="@img/feeling.png" alt="feeling"></p>
+                        <hr>
+                        <ul class="profile-list">
+                            <li class="profile-item"><img src="@img/profile-job.png" alt="Job"> Chef</li>
+                            <li class="profile-item"><img src="@img/profile-study.png" alt="Job"> Student at CMC</li>
+                            <li class="profile-item"><img src="@img/profile-study.png" alt="Job">Frontend</li>
+                            <li class="profile-item"><img src="@img/profile-home.png" alt="Job"> Lives in Cherepovets, Russia</li>
+                            <li class="profile-item"><img src="@img/profile-location.png" alt="Job"> From Cherepovets, Russia</li>
+                        </ul>
+                    </div>
+
+                    <div class="profile-intro">
+                        <div class="title-box">
+                             <h3>Photos</h3>
+                        <a href="#">All Photos</a>
+                        </div>
+                        <div class="photo-box">
+                            <div>
+                                <img src="@img/photo1.jpg" alt="photo">
+                            </div>
+                            <div>
+                                <img src="@img/photo2.jpg" alt="photo">
+                            </div>
+                            <div>
+                                <img src="@img/photo3.jpg" alt="photo">
+                            </div>
+                            <div>
+                                <img src="@img/photo4.jpg" alt="photo">
+                            </div>
+                            <div>
+                                <img src="@img/avatar.jpg" alt="photo">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile-intro">
+                        <div class="title-box">
+                             <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+                        </div>
+                        <p>120 (20 mutual)</p>
+                        <div class="friends-box">
+                            <div>
+                                <img src="@img/member-1.png" alt="photo">
+                                <p>Joseph N</p>
+                            </div>
+                            <div>
+                                <img src="@img/member-2.png" alt="photo">
+                                <p>Nathan N</p>
+                            </div>
+                            <div>
+                                <img src="@img/member-3.png" alt="photo">
+                                <p>George D</p>
+                            </div>
+                            <div>
+                                <img src="@img/member-4.png" alt="photo">
+                                <p>Francis L</p>
+                            </div>
+                            <div>
+                                <img src="@img/member-5.png" alt="photo">
+                                <p>Anthony E</p>
+                            </div>
+                            <div>
+                                <img src="@img/member-6.png" alt="photo">
+                                <p>Michael A</p>
+                            </div>
+                            <div>
+                                <img src="@img/member-7.png" alt="photo">
+                                <p>Edward M</p>
+                            </div>
+                            <div>
+                                <img src="@img/member-8.png" alt="photo">
+                                <p>Bradon C</p>
+                            </div>
+                            <div>
+                                <img src="@img/member-9.png" alt="photo">
+                                <p>Jhon Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-col">
+                    <div class="write-post-container">
+                        <div class="user-profile">
+                            <img src="@img/avatar.jpg" alt="user">
+                            <div>
+                                <p>Dmitriy Rassolenko</p>
+                                <small>Public <i class="fas fa-caret-down"></i></small>
+                            </div>
+                        </div>
+    
+                        <div class="post-input-container">
+                            <textarea rows="3" placeholder="What's on your mind, Dmitriy?"></textarea>
+    
+                            <div class="add-post-links">
+                                <a href="#"><img src="@img/live-video.png" alt="video"> Live Video</a>
+                                <a href="#"><img src="@img/photo.png" alt="video">Photo/Video</a>
+                                <a href="#"><img src="@img/feeling.png" alt="video"> Feeling/Activity</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="@img/avatar.jpg" alt="user">
+                                <div>
+                                    <p>Dmitriy Rassolenko</p>
+                                    <span>june 17 2022, 12:45 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">Watch my projects on <span>GitHub</span>. <a href="#">#Dmitriy-Rassol</a>
+                            <a href="#">#GitHub</a></p>
+                        <img src="@img/feed-image-1.png" alt="feed" class="post-img">
+    
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <a href="#">
+                                    <img src="@img/like.png" alt="like"> 120
+                                </a>
+                                <a href="#">
+                                    <img src="@img/comments.png" alt="comments"> 45
+                                </a>
+                                <a href="#">
+                                    <img src="@img/share.png" alt="share"> 20
+                                </a>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="@img/avatar.jpg" alt="user">
+                                <small><i class="fas fa-caret-down"></i></small>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="@img/avatar.jpg" alt="user">
+                                <div>
+                                    <p>Dmitriy Rassolenko</p>
+                                    <span>June 04 2022, 15:42 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">Like and share this video with friends, facebook page on your post. Ask your
+                            doubts in the comments. <a href="#">#Dmitriy-Rassol</a>
+                            <a href="#">#GitHub</a></p>
+                        <img src="@img/feed-image-2.png" alt="feed" class="post-img">
+    
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <a href="#">
+                                    <img src="@img/like-blue.png" alt="like"> 130
+                                </a>
+                                <a href="#">
+                                    <img src="@img/comments.png" alt="comments"> 41
+                                </a>
+                                <a href="#">
+                                    <img src="@img/share.png" alt="share"> 25
+                                </a>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="@img/avatar.jpg" alt="user">
+                                <small><i class="fas fa-caret-down"></i></small>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="@img/avatar.jpg" alt="user">
+                                <div>
+                                    <p>Dmitriy Rassolenko</p>
+                                    <span>Dec 24 2021, 13:40 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">Watch my projects on <span>GitHub</span>. <a href="#">#Dmitriy-Rassol</a>
+                            <a href="#">#GitHub</a></p>
+                        <img src="@img/feed-image-3.png" alt="feed" class="post-img">
+    
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <a href="#">
+                                    <img src="@img/like-blue.png" alt="like"> 230
+                                </a>
+                                <a href="#">
+                                    <img src="@img/comments.png" alt="comments"> 55
+                                </a>
+                                <a href="#">
+                                    <img src="@img/share.png" alt="share"> 60
+                                </a>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="@img/avatar.jpg" alt="user">
+                                <small><i class="fas fa-caret-down"></i></small>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="@img/avatar.jpg" alt="user">
+                                <div>
+                                    <p>Dmitriy Rassolenko</p>
+                                    <span>Dec 13 2021, 15:42 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">Like and share this video with friends, facebook page on your post. Ask your
+                            doubts in the comments. <a href="#">#Dmitriy-Rassol</a>
+                            <a href="#">#GitHub</a></p>
+                        <img src="@img/feed-image-4.png" alt="feed" class="post-img">
+    
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <a href="#">
+                                    <img src="@img/like.png" alt="like"> 130
+                                </a>
+                                <a href="#">
+                                    <img src="@img/comments.png" alt="comments"> 41
+                                </a>
+                                <a href="#">
+                                    <img src="@img/share.png" alt="share"> 25
+                                </a>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="@img/avatar.jpg" alt="user">
+                                <small><i class="fas fa-caret-down"></i></small>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="@img/avatar.jpg" alt="user">
+                                <div>
+                                    <p>Dmitriy Rassolenko</p>
+                                    <span>Dec 04 2021, 13:40 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">Watch my projects on <span>GitHub</span>. <a href="#">#Dmitriy-Rassol</a>
+                            <a href="#">#GitHub</a></p>
+                        <img src="@img/feed-image-5.png" alt="feed" class="post-img">
+    
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <a href="#">
+                                    <img src="@img/like-blue.png" alt="like"> 230
+                                </a>
+                                <a href="#">
+                                    <img src="@img/comments.png" alt="comments"> 55
+                                </a>
+                                <a href="#">
+                                    <img src="@img/share.png" alt="share"> 60
+                                </a>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="@img/avatar.jpg" alt="user">
+                                <small><i class="fas fa-caret-down"></i></small>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="load-more-btn">Load More</button>
+                </div>
+            </div>
+        </div>
+	</main>
+	@@include('html/footer.html',{})
+	<script src="https://kit.fontawesome.com/c8d96c48bd.js" crossorigin="anonymous"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
