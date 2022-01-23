@@ -44,10 +44,11 @@ npm install
 -	webpack-stream
 
 ## Сценарии NPM
+
+собираем проект с рабочим browser-sync 
 ```js
 npm run dev
 ```
-собираем проект с рабочим browser-sync 
 ---
 ```js
 npm run build
