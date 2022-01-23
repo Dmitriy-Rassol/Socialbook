@@ -1,14 +1,10 @@
-#Socialbook
+# Socialbook
  <h2> Верстка соцсети</h2>
 <img src="https://img.shields.io/github/languages/code-size/Dmitriy-Rassol/SocialBook">
 <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" >
 
-> one-liner description of the module
 
-background details relevant to understanding what this module does
-
-## Usage
-
+## Установка пакетов NPM
 ```js
 var socialbook = require('Socialbook')
 
