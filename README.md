@@ -1,3 +1,3 @@
 # Socialbook
 Верстка соцсети
-https://img.shields.io/github/directory-file-count/Dmitriy-Rassol/Socialbook?style=flat-square
+<img src="https://img.shields.io/github/languages/code-size/Dmitriy-Rassol/SocialBook">
