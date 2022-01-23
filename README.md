@@ -9,7 +9,7 @@
 npm install
 ```
 
-Список пакетов
+## Список пакетов
 
 - browser-sync
 -	del
