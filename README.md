@@ -6,42 +6,42 @@
 
 ## Установка пакетов NPM
 ```js
-var socialbook = require('Socialbook')
-
-console.log('hello world')
+npm install
 ```
 
-outputs
+Список пакетов
 
-```
-hello world
-```
+- "browser-sync": "latest",
+-	"del": "latest",
+-	"gulp": "latest",
+-	"gulp-autoprefixer": "latest",
+-	"gulp-clean-css": "latest",
+-	"gulp-file-include": "latest",
+-	"gulp-fonter": "latest",
+-	"gulp-group-css-media-queries": "latest",
+-	"gulp-if": "latest",
+-	"gulp-imagemin": "latest",
+-	"gulp-newer": "latest",
+-	"gulp-notify": "latest",
+-	"gulp-plumber": "latest",
+-	"gulp-pug": "latest",
+-	"gulp-rename": "latest",
+-	"gulp-replace": "latest",
+-	"gulp-sass": "latest",
+-	"gulp-svg-sprite": "latest",
+-	"gulp-ttf2woff2": "latest",
+-	"gulp-util": "latest",
+-	"gulp-version-number": "latest",
+-	"gulp-webp": "latest",
+-	"gulp-webp-html-nosvg": "latest",
+-	"gulp-webpcss": "latest",
+-	"gulp-zip": "latest",
+-	"sass": "latest",
+-	"swiper": "latest",
+-	"vinyl-ftp": "latest",
+-	"webp-converter": "2.2.3",
+-	"webpack": "latest",
+-	"webpack-stream": "latest"
 
-## API
 
-```js
-var socialbook = require('Socialbook')
-```
 
-See [api_formatting.md](api_formatting.md) for tips.
-
-## Install
-
-With [npm](https://npmjs.org/) installed, run
-
-```
-$ npm install Socialbook
-```
-
-## Acknowledgments
-
-Socialbook was inspired by..
-
-## See Also
-
-- [`noffle/common-readme`](https://github.com/noffle/common-readme)
-- ...
-
-## License
-
-ISC
