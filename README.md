@@ -5,6 +5,7 @@
 
 
 ![image](https://github.com/Dmitriy-Rassol/Socialbook/assets/52157280/dbfadc9e-5efc-4fa4-a733-bacb25bd0b26)
+![image](https://github.com/Dmitriy-Rassol/Socialbook/assets/52157280/40f8072a-1a4e-49c2-a52e-f7037cd3fe65)
 
 
 ## Установка пакетов NPM
