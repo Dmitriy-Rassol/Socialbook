@@ -1,5 +1,5 @@
 # [Socialbook](https://dmitriy-rassol.github.io/Socialbook/dist)
- <h2> Верстка соцсети</h2>
+ <h2> Соцсеть </h2>
 <img src="https://img.shields.io/github/languages/code-size/Dmitriy-Rassol/SocialBook">
 <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" >
 
