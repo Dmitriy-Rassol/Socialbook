@@ -2,8 +2,9 @@
  <h2> Верстка соцсети</h2>
 <img src="https://img.shields.io/github/languages/code-size/Dmitriy-Rassol/SocialBook">
 <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" >
-![image](https://github.com/Dmitriy-Rassol/Socialbook/assets/52157280/8ae6e354-5ae0-4153-b533-6754af6f6f83)
-![image](https://github.com/Dmitriy-Rassol/Socialbook/assets/52157280/0c9affb8-d583-43c5-b710-3e50a7307f7c)
+
+
+![image](https://github.com/Dmitriy-Rassol/Socialbook/assets/52157280/dbfadc9e-5efc-4fa4-a733-bacb25bd0b26)
 
 
 ## Установка пакетов NPM
